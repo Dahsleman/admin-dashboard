@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin-Dahsboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar-container">
+            <div class="sidebar-title">
+                <div class="title-item">
+                    <span class="material-icons md-24">dashboard</span>
+                </div> 
+                <div class="title-item" id="dashboard">Dashboard</div>  
+            </div>
+            <div class="sidebar-line_1">
+                <div class="line">__________________________________________</div>
+            </div>
+            <div class="sidebar-menu_1">
+                <div class="icon">
+                    <div class="icon-item">
+                        <span class="material-icons md-18">home</span>
+                    </div> 
+                    <div class="icon-item" id="home">Home</div>
+                </div>
+                <div class="icon">
+                    <div class="icon-item">
+                        <span class="material-icons md-18">account_circle</span>
+                    </div>
+                    <div class="icon-item" id="profile">Profile</div>
+                </div>
+                <div class="icon">
+                    <div class="icon-item">
+                        <span class="material-icons md-18">message</span>
+                    </div>
+                    <div class="icon-item" id="messages">Messages</div>
+                </div>
+                <div class="icon">
+                    <div class="icon-item">
+                        <span class="material-icons md-18">history</span>
+                    </div>
+                    <div class="icon-item" id="history">History</div>
+                </div>
+                <div class="icon">
+                    <div class="icon-item">
+                        <span class="material-icons md-18">task</span>
+                    </div>
+                    <div class="icon-item" id="tasks">Tasks</div>
+                </div>
+                <div class="icon">
+                    <div class="icon-item">
+                        <span class="material-icons md-18">groups</span>
+                    </div>
+                    <div class="icon-item" id="groups">Communities</div>
+                </div>
+            </div>
+            <div class="sidebar-line_2">
+                <div class="line">__________________________________________</div>
+            </div>
+            <div class="sidebar-menu_2">
+                <div class="icon">
+                    <div class="icon-item">
+                        <span class="material-icons md-18">settings</span>
+                    </div>
+                    <div class="icon-item" id="settings">Settings</div>
+                </div>
+                <div class="icon">
+                    <div class="icon-item">
+                        <span class="material-icons md-18">contact_support</span>
+                    </div>
+                    <div class="icon-item" id="support">Support</div>
+                </div>
+                <div class="icon">
+                    <div class="icon-item">
+                        <span class="material-icons md-18">privacy_tip</span>
+                    </div>
+                    <div class="icon-item" id="support">Privacy</div>
+                </div>
+            </div>
+            <div class="sidebar-menu_3"></div>
+        </div>
+        <div class="main-container">
+            <div class="main_title-container">
+                <div class="main_title_left_items-container">
+                    <div class="main_title_left-item main_title_items-hover">New</div>
+                    <div class="main_title_left-item main_title_items-hover">Upload</div>
+                    <div class="main_title_left-item main_title_items-hover">Share</div>
+                </div>
+                <div class="main_title_search_bar-container">
+                    <div class="search-bar">
+                        <input type="text">
+                    </div>
+                    <div class="icon-btn">
+                        <span class="material-icons md-24" id="search">search</span>
+                    </div>
+                </div>
+                <div class="main_title_right_items-container">
+                    <div class="main_title_border"></div>  
+                    <div class="main_title_bell">
+                        <span class="material-icons md-24" id="bell">notifications_active</span>
+                    </div>
+                    <div class="main_title_border"></div>
+                    <div class="main_title-username main_title_items-hover">Dahsleman</div>
+                    <div class="main_title-image  main_title_items-hover">
+                        <svg height="100" width="100">
+                            <defs>
+                              <clipPath id="circleView">
+                                <circle cx="25" cy="20" r="18" />
+                              </clipPath>
+                            </defs>
+                            <image clip-path="url(#circleView)" xlink:href="profile.jpg" height="100" width="100"/>
+                        </svg>
+                    </div>
+                    <div class="main_title-empty"></div>
+                </div>
+            </div>
+            <div class="main_content-container">
+                <div class="projects-container">
+                    <div class="content-title">
+                        Your projects
+                    </div>
+                    <div class="projects-content">
+                        <div class="projects-content-item">
+                            <div class="projects-info-container">
+                                <div class="projects-empty"></div>
+                                <div class="projects-info-title announcements_items-hover">   
+                                    Super Cool Project
+                                </div>
+                                <div class="projects-info-paragraff">
+                                    Lorem Ipsum nulla pariatur. Ut enim ad minim veniam, quis nostrud exercitation.
+                                </div>
+                                
+                            </div>
+                            <div class="projects-info-container">
+                                <div class="projects-icon-container">
+                                    <div class="projects-icon-item">
+                                        <span class="material-icons md-24" id="star">star</span>
+                                    </div>
+                                    <div class="projects-icon-item">
+                                        <span class="material-icons md-24" id="visibility">visibility</span>
+                                    </div>
+                                    <div class="projects-icon-item">
+                                        <span class="material-icons md-24" id="share">share</span>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+                        <div class="projects-content-item">
+                            <div class="projects-info-container">
+                                <div class="projects-empty"></div>
+                                <div class="projects-info-title announcements_items-hover">   
+                                    Super Cool Project
+                                </div>
+                                <div class="projects-info-paragraff">
+                                    Lorem Ipsum nulla pariatur. Ut enim ad minim veniam, quis nostrud exercitation.
+                                </div>
+                                
+                            </div>
+                            <div class="projects-info-container">
+                                <div class="projects-icon-container">
+                                    <div class="projects-icon-item">
+                                        <span class="material-icons md-24" id="star">star</span>
+                                    </div>
+                                    <div class="projects-icon-item">
+                                        <span class="material-icons md-24" id="visibility">visibility</span>
+                                    </div>
+                                    <div class="projects-icon-item">
+                                        <span class="material-icons md-24" id="share">share</span>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+                        <div class="projects-content-item">
+                            <div class="projects-info-container">
+                                <div class="projects-empty"></div>
+                                <div class="projects-info-title announcements_items-hover">   
+                                    Super Cool Project
+                                </div>
+                                <div class="projects-info-paragraff">
+                                    Lorem Ipsum nulla pariatur. Ut enim ad minim veniam, quis nostrud exercitation.
+                                </div>
+                                
+                            </div>
+                            <div class="projects-info-container">
+                                <div class="projects-icon-container">
+                                    <div class="projects-icon-item">
+                                        <span class="material-icons md-24" id="star">star</span>
+                                    </div>
+                                    <div class="projects-icon-item">
+                                        <span class="material-icons md-24" id="visibility">visibility</span>
+                                    </div>
+                                    <div class="projects-icon-item">
+                                        <span class="material-icons md-24" id="share">share</span>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+                        <div class="projects-content-item">
+                            <div class="projects-info-container">
+                                <div class="projects-empty"></div>
+                                <div class="projects-info-title announcements_items-hover">   
+                                    Super Cool Project
+                                </div>
+                                <div class="projects-info-paragraff">
+                                    Lorem Ipsum nulla pariatur. Ut enim ad minim veniam, quis nostrud exercitation.
+                                </div>
+                                
+                            </div>
+                            <div class="projects-info-container">
+                                <div class="projects-icon-container">
+                                    <div class="projects-icon-item">
+                                        <span class="material-icons md-24" id="star">star</span>
+                                    </div>
+                                    <div class="projects-icon-item">
+                                        <span class="material-icons md-24" id="visibility">visibility</span>
+                                    </div>
+                                    <div class="projects-icon-item">
+                                        <span class="material-icons md-24" id="share">share</span>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+                        <div class="projects-content-item">
+                            <div class="projects-info-container">
+                                <div class="projects-empty"></div>
+                                <div class="projects-info-title announcements_items-hover">   
+                                    Super Cool Project
+                                </div>
+                                <div class="projects-info-paragraff">
+                                    Lorem Ipsum nulla pariatur. Ut enim ad minim veniam, quis nostrud exercitation.
+                                </div>
+                                
+                            </div>
+                            <div class="projects-info-container">
+                                <div class="projects-icon-container">
+                                    <div class="projects-icon-item">
+                                        <span class="material-icons md-24" id="star">star</span>
+                                    </div>
+                                    <div class="projects-icon-item">
+                                        <span class="material-icons md-24" id="visibility">visibility</span>
+                                    </div>
+                                    <div class="projects-icon-item">
+                                        <span class="material-icons md-24" id="share">share</span>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+                        <div class="projects-content-item">
+                            <div class="projects-info-container">
+                                <div class="projects-empty"></div>
+                                <div class="projects-info-title announcements_items-hover">   
+                                    Super Cool Project
+                                </div>
+                                <div class="projects-info-paragraff">
+                                    Lorem Ipsum nulla pariatur. Ut enim ad minim veniam, quis nostrud exercitation.
+                                </div>  
+                            </div>
+                            <div class="projects-info-container">
+                                <div class="projects-icon-container">
+                                    <div class="projects-icon-item">
+                                        <span class="material-icons md-24" id="star">star</span>
+                                    </div>
+                                    <div class="projects-icon-item">
+                                        <span class="material-icons md-24" id="visibility">visibility</span>
+                                    </div>
+                                    <div class="projects-icon-item">
+                                        <span class="material-icons md-24" id="share">share</span>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_content_right-container">
+                    <div class="announcements-container">
+                        <div class="content-title">
+                            Announcements
+                        </div>
+                        <div class="announcements-content">
+                            <div class="announcements-content-text1">
+                                <div class="announcements-content-title announcements_items-hover">
+                                    Site Maintenance
+                                </div>
+                                <div class="announcements-content-paragraff">
+                                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </div>
+                            </div>
+                            <div class="announcements-content-line">
+                                ____________________________________________________________________________
+                            </div>
+                            <div class="announcements-content-text2">
+                                <div class="announcements-content-title announcements_items-hover">
+                                    Community Share Day
+                                </div>
+                                <div class="announcements-content-paragraff">
+                                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </div>
+                            </div>
+                            <div class="announcements-content-line2">
+                                ____________________________________________________________________________
+                            </div>
+                            <div class="announcements-content-text3">
+                                <div class="announcements-content-title announcements_items-hover">
+                                    Updated Privacy Policy
+                                </div>
+                                <div class="announcements-content-paragraff">
+                                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trending-container">
+                        <div class="content-title">
+                            Trending
+                        </div>
+                        <div class="trending-content">
+                            <div class="trending-content-text1 trending_items-hover">
+                                <div class="trending-content-title">
+                                    <svg height="100" width="100">
+                                        <defs>
+                                          <clipPath id="circleView">
+                                            <circle cx="25" cy="25" r="20" />
+                                          </clipPath>
+                                        </defs>
+                                        <image clip-path="url(#circleView)" xlink:href="profile.jpg" height="100" width="100"/>
+                                    </svg>
+                                </div>
+                                <div class="trending-content-paragraff">
+                                    <div class="trending-content-paragraff-login">
+                                        @tegan
+                                    </div>
+                                    <div class="trending-content-paragraff-login2">
+                                        World Peace Bilder
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="trending-content-text2 trending_items-hover">
+                                <div class="trending-content-title">
+                                    <svg height="100" width="100">
+                                        <defs>
+                                          <clipPath id="circleView">
+                                            <circle cx="25" cy="25" r="20" />
+                                          </clipPath>
+                                        </defs>
+                                        <image clip-path="url(#circleView)" xlink:href="profile.jpg" height="100" width="100"/>
+                                    </svg>
+                                </div>
+                                <div class="trending-content-paragraff">
+                                    <div class="trending-content-paragraff-login">
+                                        @john
+                                    </div>
+                                    <div class="trending-content-paragraff-login2">
+                                        World Peace Bilder
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="trending-content-text3 trending_items-hover">
+                                <div class="trending-content-title">
+                                    <svg height="100" width="100">
+                                        <defs>
+                                          <clipPath id="circleView">
+                                            <circle cx="25" cy="20" r="20" />
+                                          </clipPath>
+                                        </defs>
+                                        <image clip-path="url(#circleView)" xlink:href="profile.jpg" height="100" width="100"/>
+                                    </svg>
+                                </div>
+                                <div class="trending-content-paragraff">
+                                    <div class="trending-content-paragraff-login">
+                                        @dahsleman
+                                    </div>
+                                    <div class="trending-content-paragraff-login2">
+                                        World Peace Bilder
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main_footer-container"></div>
+            
+        </div>  
+    </div>
+    
+    
+</body>
+</html>
